@@ -93,7 +93,7 @@ export default async function ArticlePage({
       <header className="border-b border-stone-200 dark:border-stone-800">
         <div className="mx-auto max-w-3xl px-4 py-12 sm:px-6 sm:py-16">
           <Link
-            href={`/${slugify(post.category)}`}
+            href={`/category/${slugify(post.category)}`}
             className="text-xs font-semibold uppercase tracking-wider text-amber-700 hover:text-amber-800 dark:text-amber-400"
           >
             {post.category}
