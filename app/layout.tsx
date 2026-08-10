@@ -22,12 +22,20 @@ export const metadata: Metadata = {
   },
   description:
     "Slow, intentional travel stories — destinations, guides, and travelogues from every corner of the globe.",
+  metadataBase: new URL("https://travel.eastlink-hub.com"),
   openGraph: {
     title: "Wander Journal",
     description:
       "Slow, intentional travel stories — destinations, guides, and travelogues from around the world.",
     type: "website",
     siteName: "Wander Journal",
+    url: "https://travel.eastlink-hub.com",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Wander Journal",
+    description:
+      "Slow, intentional travel stories — destinations, guides, and travelogues from around the world.",
   },
   alternates: {
     types: {
